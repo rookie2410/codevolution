@@ -1,9 +1,11 @@
 
 import './App.css';
 import React,{ Component } from 'react';
-import Counter from './Components/Counter';
-import Greet from './Components/Greet';
-import Welcome from './Components/Welcome';
+import Counter from './Components/Counter'
+import Greet from './Components/Greet'
+import Welcome from './Components/Welcome'
+import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
 
 
 
@@ -18,6 +20,8 @@ class App extends Component {
       {/* <Greet name='Rohit' hero='Batman'/>
       <Greet name='Riddhesh' hero='Spiderman'/> */}
       <Welcome name='Rohit' hero='Batman' />   
+      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }
