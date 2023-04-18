@@ -1,16 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Component } from 'react';
-import welcome from './Components/welcome';
-import counter from './Components/counter';
+import React,{ Component } from 'react';
+import Counter from './Components/Counter';
+import Greet from './Components/Greet';
+
+
 
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-      <welcome/>
-      <counter/>
+      <h1>Test</h1>
+      <Counter/>
+      <Greet name='Roshan' hero='Superman'/>
+      {/* <Greet name='Rohit' hero='Batman'/>
+      <Greet name='Riddhesh' hero='Spiderman'/> */}
     </div>
   );
 }
