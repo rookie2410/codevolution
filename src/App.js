@@ -6,6 +6,7 @@ import Greet from './Components/Greet'
 import Welcome from './Components/Welcome'
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 
 
@@ -22,6 +23,7 @@ class App extends Component {
       <Welcome name='Rohit' hero='Batman' />   
       <FunctionClick />
       <ClassClick />
+      <EventBind />
     </div>
   );
 }
