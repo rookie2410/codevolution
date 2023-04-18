@@ -3,6 +3,7 @@ import './App.css';
 import React,{ Component } from 'react';
 import Counter from './Components/Counter';
 import Greet from './Components/Greet';
+import Welcome from './Components/Welcome';
 
 
 
@@ -16,6 +17,7 @@ class App extends Component {
       <Greet name='Roshan' hero='Superman'/>
       {/* <Greet name='Rohit' hero='Batman'/>
       <Greet name='Riddhesh' hero='Spiderman'/> */}
+      <Welcome name='Rohit' hero='Batman' />   
     </div>
   );
 }
